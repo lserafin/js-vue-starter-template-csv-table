@@ -7,7 +7,7 @@ import VueGoodTablePlugin from "vue-good-table";
 import Papa from "papaparse";
 
 // import the styles
-//import 'vue-good-table/dist/vue-good-table.css'
+import 'vue-good-table/dist/vue-good-table.css';
 
 Vue.use(VueGoodTablePlugin);
 
