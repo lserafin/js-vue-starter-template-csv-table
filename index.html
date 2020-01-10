@@ -1,0 +1,11 @@
+<div id="app">
+  <vue-good-table
+    :columns="columns"
+    :rows="rows"
+    styleClass="vgt-table"> 
+  </vue-good-table>                  
+  <button v-on:click="clearTable">Clear Table</button>
+  <input type="file" @change="parseFile"> 
+</div>
+
+
